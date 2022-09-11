@@ -2,6 +2,8 @@
 
 ## Layout
 
+### URL: [Visit Site](https://he-zekiah.github.io/Social-proof-section/)
+
 The designs were created to the following widths:
 
 - Mobile: 375px
