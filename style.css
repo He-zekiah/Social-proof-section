@@ -6,10 +6,6 @@
     font-family: 'League Spartan', sans-serif;
 }
 
-/* .body {
-
-} */
-
 .all {
     height: 100vh;
     width: 100vw;
@@ -19,7 +15,6 @@
 }
 
 .content {
-    height: auto;
     width: 80%;
 }
 
@@ -30,7 +25,6 @@
 
 .info {
     width: 40%;
-    /* padding-right: 80px; */
 }
 
 
@@ -69,16 +63,13 @@
 .review {
     color: hsl(300, 43%, 22%);
     font-size: 12px;
-    font-weight: 700;
+    font-weight: 700px;
 }
 
 .small {
     display: flex;
     justify-content: space-between;
-    /* height: 400px; */
     padding-top: 58px;
-    /* width: 90%; */
-
 }
 
 .base {
@@ -112,7 +103,6 @@
 }
 
 .text1 {
-    /* padding: 10px; */
     color: white;
     height: 80px;
 }
@@ -133,4 +123,107 @@
 
 #base3 {
     margin-top: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .all {
+        height: 100%;
+        width: 100%;  
+        flex-direction: column;
+    }
+
+    .content {
+        width: 50%;
+        height: 1500px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header {
+        flex-direction: column;
+        text-align: center;
+        width: 100%; 
+    }
+
+    .num {
+        font-size: 35px;
+        font-weight: bolder;
+        width: 300px;
+    }
+
+    .mess {
+        font-size: 15px;
+        width: 300px;
+        margin-top: 10px; 
+    }
+    .star {
+        flex-direction: column;
+        width: 260px;
+        margin-top: 20px;
+        align-items: center;
+    }
+    
+    .review {
+        font-size: 14px;
+        font-weight: bolder;
+        margin-bottom: 10px; 
+        
+    }
+
+    #star2 {
+        margin-left: 0;
+    }
+
+    #star3 {
+        margin-left: 0;
+    }
+
+    .duplicate {
+        padding: 10px;
+    }
+
+    .small {
+        flex-direction: column;
+        padding-top: 35px;
+    }
+
+    .base {
+        width: 250px;
+        padding: 20px;
+    }
+
+    .pics {
+        height: 35px;
+        padding: 10px;
+    }
+
+    .name {
+        flex-direction: column;
+    }
+
+    .name1 {
+        font-size: 13px;
+    }
+
+    .occ {
+        font-size: 13px;
+    }
+
+    .text1 {
+        font-size: 18px;
+        height: 40px;
+    }
+
+    #base2 {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    #base3 {
+        margin: 0;
+    }
+
+    .attribute {
+        font-size: 20px;
+    }
 }
